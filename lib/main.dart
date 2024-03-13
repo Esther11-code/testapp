@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_unnecessary_containers
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 
 void main() {
   runApp(
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Container(
-              padding: const EdgeInsets.only(top: 20),
+              padding: const EdgeInsets.only(top: 30),
               alignment: Alignment.center,
               child: const Text(
                 "Habbio is a free and simple daily\n habit tracker",
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Container(
-              padding: const EdgeInsets.only(top: 20),
+              padding: const EdgeInsets.only(top: 30),
               alignment: Alignment.center,
               child: ElevatedButton(
                 onPressed: () {},
